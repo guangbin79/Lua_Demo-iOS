@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "800E7C9A8C7A00482DD4953132210CEC1C3CD31F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "800E7C9A8C7A00482DD4953132210CEC1C3CD31F" : 9223372036854775807,
+    "AB12DD813B28CC3E8531DBF922633AE204704AE0" : 9223372036854775807,
+    "0AD5C0049508F8AEE7C16378B6D90B50589526EC" : 9223372036854775807,
+    "4E59531DF7C525684275D9CB5E97A0B5A19BBF61" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AB3493BD-6C4B-4C9E-88E9-6DEEB405C688",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "800E7C9A8C7A00482DD4953132210CEC1C3CD31F" : "Lua_Demo-iOS\/",
+    "AB12DD813B28CC3E8531DBF922633AE204704AE0" : "Lua_Demo-iOS\/HTCopyableLabel\/",
+    "0AD5C0049508F8AEE7C16378B6D90B50589526EC" : "Lua_Demo-iOS\/Lua_5.1.5-iOS\/",
+    "4E59531DF7C525684275D9CB5E97A0B5A19BBF61" : "Lua_Demo-iOS\/RealReachability\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Lua_Demo-iOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Lua_Demo-iOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:guangbin79\/Lua_5.1.5-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0AD5C0049508F8AEE7C16378B6D90B50589526EC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dustturtle\/RealReachability.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E59531DF7C525684275D9CB5E97A0B5A19BBF61"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:guangbin79\/Lua_Demo-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "800E7C9A8C7A00482DD4953132210CEC1C3CD31F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hoteltonight\/HTCopyableLabel",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB12DD813B28CC3E8531DBF922633AE204704AE0"
+    }
+  ]
+}

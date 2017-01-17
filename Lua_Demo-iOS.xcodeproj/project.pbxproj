@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A406C191E5846C6006DA7F8 /* lua-script.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0A406C181E5846C6006DA7F8 /* lua-script.zip */; };
+		0A6730B61E248F6000FAC158 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6730B51E248F6000FAC158 /* SystemConfiguration.framework */; };
+		0A8A3F9D1DF57140008BEFF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A3F9C1DF57140008BEFF3 /* main.m */; };
+		0A8A3FA01DF57140008BEFF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A3F9F1DF57140008BEFF3 /* AppDelegate.m */; };
+		0A8A3FA31DF57140008BEFF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A3FA21DF57140008BEFF3 /* ViewController.m */; };
+		0A8A3FA61DF57140008BEFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8A3FA41DF57140008BEFF3 /* Main.storyboard */; };
+		0A8A3FA81DF57140008BEFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8A3FA71DF57140008BEFF3 /* Assets.xcassets */; };
+		0A8A3FAB1DF57140008BEFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8A3FA91DF57140008BEFF3 /* LaunchScreen.storyboard */; };
+		0A96D3171E2632A300589855 /* RealReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6730C01E25CD7300FAC158 /* RealReachability.framework */; };
+		0A96D3181E2632A300589855 /* RealReachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6730C01E25CD7300FAC158 /* RealReachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A9CBDB61E63C8ED00451EDA /* lua51.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3EB3291DF9446B00E6365A /* lua51.framework */; };
+		0A9CBDB71E63C8ED00451EDA /* lua51.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3EB3291DF9446B00E6365A /* lua51.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A9D5F9A1E1CDBB500AC9407 /* HTCopyableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D5F991E1CDBB500AC9407 /* HTCopyableLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A3EB3281DF9446B00E6365A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3EB3241DF9446A00E6365A /* Lua_5.1.5-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0A49F2C41DE90F2E00268D2B;
+			remoteInfo = "Lua_5.1.5-iOS";
+		};
+		0A6730BF1E25CD7300FAC158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A6730BB1E25CD7300FAC158 /* RealReachability.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7F3A815B1D5220D6004B78CE;
+			remoteInfo = RealReachability;
+		};
+		0A96D3191E2632A300589855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A6730BB1E25CD7300FAC158 /* RealReachability.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F3A815A1D5220D6004B78CE;
+			remoteInfo = RealReachability;
+		};
+		0A9CBDB81E63C8ED00451EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3EB3241DF9446A00E6365A /* Lua_5.1.5-iOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AEB21221E6080F4009A9BCF;
+			remoteInfo = "Lua_5.1.5-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A96D31B1E2632A300589855 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0A96D3181E2632A300589855 /* RealReachability.framework in Embed Frameworks */,
+				0A9CBDB71E63C8ED00451EDA /* lua51.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A3EB3241DF9446A00E6365A /* Lua_5.1.5-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Lua_5.1.5-iOS.xcodeproj"; path = "Lua_5.1.5-iOS/Lua_5.1.5-iOS.xcodeproj"; sourceTree = "<group>"; };
+		0A406C181E5846C6006DA7F8 /* lua-script.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "lua-script.zip"; sourceTree = "<group>"; };
+		0A6730B51E248F6000FAC158 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0A6730BB1E25CD7300FAC158 /* RealReachability.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RealReachability.xcodeproj; path = RealReachability/RealReachability.xcodeproj; sourceTree = "<group>"; };
+		0A6FFE801E584CE8007B00F3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0A8A3F981DF57140008BEFF3 /* Lua_Demo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lua_Demo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8A3F9C1DF57140008BEFF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A8A3F9E1DF57140008BEFF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A8A3F9F1DF57140008BEFF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A8A3FA11DF57140008BEFF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A8A3FA21DF57140008BEFF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A8A3FA51DF57140008BEFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A8A3FA71DF57140008BEFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A8A3FAA1DF57140008BEFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A8A3FAC1DF57140008BEFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9D5F981E1CDBB500AC9407 /* HTCopyableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTCopyableLabel.h; path = HTCopyableLabel/HTCopyableLabel.h; sourceTree = SOURCE_ROOT; };
+		0A9D5F991E1CDBB500AC9407 /* HTCopyableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTCopyableLabel.m; path = HTCopyableLabel/HTCopyableLabel.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A8A3F951DF57140008BEFF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9CBDB61E63C8ED00451EDA /* lua51.framework in Frameworks */,
+				0A6730B61E248F6000FAC158 /* SystemConfiguration.framework in Frameworks */,
+				0A96D3171E2632A300589855 /* RealReachability.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3EB3251DF9446A00E6365A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A3EB3291DF9446B00E6365A /* lua51.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A6730B41E248F6000FAC158 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A6FFE801E584CE8007B00F3 /* libz.tbd */,
+				0A6730B51E248F6000FAC158 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A6730BC1E25CD7300FAC158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A6730C01E25CD7300FAC158 /* RealReachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A8A3F8F1DF5713F008BEFF3 = {
+			isa = PBXGroup;
+			children = (
+				0A6730BB1E25CD7300FAC158 /* RealReachability.xcodeproj */,
+				0A3EB3241DF9446A00E6365A /* Lua_5.1.5-iOS.xcodeproj */,
+				0A8A3F9A1DF57140008BEFF3 /* Lua_Demo-iOS */,
+				0A8A3F991DF57140008BEFF3 /* Products */,
+				0A6730B41E248F6000FAC158 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A8A3F991DF57140008BEFF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A8A3F981DF57140008BEFF3 /* Lua_Demo-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A8A3F9A1DF57140008BEFF3 /* Lua_Demo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0A406C181E5846C6006DA7F8 /* lua-script.zip */,
+				0A8A3F9E1DF57140008BEFF3 /* AppDelegate.h */,
+				0A8A3F9F1DF57140008BEFF3 /* AppDelegate.m */,
+				0A8A3FA11DF57140008BEFF3 /* ViewController.h */,
+				0A8A3FA21DF57140008BEFF3 /* ViewController.m */,
+				0A9D5F981E1CDBB500AC9407 /* HTCopyableLabel.h */,
+				0A9D5F991E1CDBB500AC9407 /* HTCopyableLabel.m */,
+				0A8A3FA41DF57140008BEFF3 /* Main.storyboard */,
+				0A8A3FA71DF57140008BEFF3 /* Assets.xcassets */,
+				0A8A3FA91DF57140008BEFF3 /* LaunchScreen.storyboard */,
+				0A8A3FAC1DF57140008BEFF3 /* Info.plist */,
+				0A8A3F9B1DF57140008BEFF3 /* Supporting Files */,
+			);
+			path = "Lua_Demo-iOS";
+			sourceTree = "<group>";
+		};
+		0A8A3F9B1DF57140008BEFF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8A3F9C1DF57140008BEFF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A8A3F971DF57140008BEFF3 /* Lua_Demo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8A3FAF1DF57140008BEFF3 /* Build configuration list for PBXNativeTarget "Lua_Demo-iOS" */;
+			buildPhases = (
+				0A8A3F941DF57140008BEFF3 /* Sources */,
+				0A8A3F951DF57140008BEFF3 /* Frameworks */,
+				0A8A3F961DF57140008BEFF3 /* Resources */,
+				0A96D31B1E2632A300589855 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A96D31A1E2632A300589855 /* PBXTargetDependency */,
+				0A9CBDB91E63C8ED00451EDA /* PBXTargetDependency */,
+			);
+			name = "Lua_Demo-iOS";
+			productName = "Lua_Demo-iOS";
+			productReference = 0A8A3F981DF57140008BEFF3 /* Lua_Demo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A8A3F901DF5713F008BEFF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "柏光宾";
+				TargetAttributes = {
+					0A8A3F971DF57140008BEFF3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = W9877WY97G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0A8A3F931DF5713F008BEFF3 /* Build configuration list for PBXProject "Lua_Demo-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A8A3F8F1DF5713F008BEFF3;
+			productRefGroup = 0A8A3F991DF57140008BEFF3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0A3EB3251DF9446A00E6365A /* Products */;
+					ProjectRef = 0A3EB3241DF9446A00E6365A /* Lua_5.1.5-iOS.xcodeproj */;
+				},
+				{
+					ProductGroup = 0A6730BC1E25CD7300FAC158 /* Products */;
+					ProjectRef = 0A6730BB1E25CD7300FAC158 /* RealReachability.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0A8A3F971DF57140008BEFF3 /* Lua_Demo-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0A3EB3291DF9446B00E6365A /* lua51.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = lua51.framework;
+			remoteRef = 0A3EB3281DF9446B00E6365A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0A6730C01E25CD7300FAC158 /* RealReachability.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RealReachability.framework;
+			remoteRef = 0A6730BF1E25CD7300FAC158 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A8A3F961DF57140008BEFF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A406C191E5846C6006DA7F8 /* lua-script.zip in Resources */,
+				0A8A3FAB1DF57140008BEFF3 /* LaunchScreen.storyboard in Resources */,
+				0A8A3FA81DF57140008BEFF3 /* Assets.xcassets in Resources */,
+				0A8A3FA61DF57140008BEFF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A8A3F941DF57140008BEFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8A3FA31DF57140008BEFF3 /* ViewController.m in Sources */,
+				0A8A3FA01DF57140008BEFF3 /* AppDelegate.m in Sources */,
+				0A8A3F9D1DF57140008BEFF3 /* main.m in Sources */,
+				0A9D5F9A1E1CDBB500AC9407 /* HTCopyableLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A96D31A1E2632A300589855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RealReachability;
+			targetProxy = 0A96D3191E2632A300589855 /* PBXContainerItemProxy */;
+		};
+		0A9CBDB91E63C8ED00451EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Lua_5.1.5-iOS";
+			targetProxy = 0A9CBDB81E63C8ED00451EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A8A3FA41DF57140008BEFF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8A3FA51DF57140008BEFF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A8A3FA91DF57140008BEFF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8A3FAA1DF57140008BEFF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A8A3FAD1DF57140008BEFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A8A3FAE1DF57140008BEFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A8A3FB01DF57140008BEFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9877WY97G;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Lua_Demo-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guangbin.Lua-Demo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A8A3FB11DF57140008BEFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9877WY97G;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Lua_Demo-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "guangbin.Lua-Demo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A8A3F931DF5713F008BEFF3 /* Build configuration list for PBXProject "Lua_Demo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8A3FAD1DF57140008BEFF3 /* Debug */,
+				0A8A3FAE1DF57140008BEFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8A3FAF1DF57140008BEFF3 /* Build configuration list for PBXNativeTarget "Lua_Demo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8A3FB01DF57140008BEFF3 /* Debug */,
+				0A8A3FB11DF57140008BEFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A8A3F901DF5713F008BEFF3 /* Project object */;
+}

@@ -1,0 +1,9 @@
+[submodule "Lua_5.1.5-iOS"]
+	path = Lua_5.1.5-iOS
+	url = https://github.com/guangbin79/Lua_5.1.5-iOS.git
+[submodule "HTCopyableLabel"]
+	path = HTCopyableLabel
+	url = https://github.com/hoteltonight/HTCopyableLabel.git
+[submodule "RealReachability"]
+	path = RealReachability
+	url = https://github.com/dustturtle/RealReachability.git
